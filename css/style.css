@@ -7809,10 +7809,25 @@ body {
     transition: border 0.2s;
     border-bottom: 1px solid white; }
 
+#showcase {
+  background: url(../images/main.jpeg) bottom center/cover no-repeat;
+  min-height: 750px; }
+  #showcase h1 {
+    font-family: "Questrial", sans-serif;
+    line-height: 1; }
+  #showcase #book {
+    font-size: 1.5rem;
+    border-radius: 2rem; }
+
 @media (max-width: 768px) {
   .navbar {
     background: #1f1f1f; }
     .navbar .nav-link:hover {
-      border-bottom: none; } }
+      border-bottom: none; }
+
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; } }
 
 /*# sourceMappingURL=style.css.map */
