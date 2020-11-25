@@ -7796,8 +7796,7 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 body {
-  font-family: "Raleway", sans-serif;
-  background: pink; }
+  font-family: "Raleway", sans-serif; }
 
 .navbar {
   font-weight: 100;
@@ -7845,5 +7844,3 @@ body {
     min-height: 500px; }
     #showcase h1 {
       font-size: 4rem; } }
-
-/*# sourceMappingURL=app.css.map */
