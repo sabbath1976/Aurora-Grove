@@ -1,3 +1,40 @@
 body {
+    font-family: "Raleway", sans-serif;
     background: pink;
+}
+
+// NAVBAR
+.navbar {
+    font-weight: 300;
+
+    h3 {
+        font-weight: 100;
+    }
+
+    .nav-item {
+        font-size: 1.4rem;
+    }
+
+    .nav-link {
+        &:link,
+        &:visited {
+            border-bottom: transparent;
+            transition: all 0.2s;
+        }
+
+        &:hover {
+            border-bottom: 1px solid #fff;
+        }
+    }
+}
+
+// MEDIA QUERIES
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1f1f1f;
+
+        .nav-link:hover {
+            border-bottom: none;
+        }
+    }
 }
