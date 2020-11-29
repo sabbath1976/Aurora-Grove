@@ -7204,4 +7204,8 @@ body {
   .navbar {
     background-color: #1f1f1f; }
     .navbar .nav-link:hover {
-      border-bottom: none; } }
+      border-bottom: none; }
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; } }
