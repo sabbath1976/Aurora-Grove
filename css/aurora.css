@@ -7206,6 +7206,10 @@ body {
 #testimonials i {
   opacity: 0.3; }
 
+#bookingModal #close:focus {
+  outline: none;
+  color: purple; }
+
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: #1f1f1f; }

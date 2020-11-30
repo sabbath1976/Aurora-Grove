@@ -80,6 +80,16 @@ body {
     }
 }
 
+// MODAL
+#bookingModal {
+    #close {
+        &:focus {
+            outline: none;
+            color: purple;
+        }
+    }
+}
+
 // MEDIA QUERIES
 @media only screen and (max-width: 768px) {
     .navbar {
